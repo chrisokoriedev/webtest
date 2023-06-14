@@ -1,0 +1,66 @@
+html {
+  box-sizing: content-box;
+  scroll-behavior: smooth;
+}
+
+.banner-container {
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/free-photo/beautiful-landscape-snowcovered-mountains-with-paraglider-south-tyrol-dolomites-italy_181624-30091.jpg?w=1380&t=st=1686551290~exp=1686551890~hmac=c51a22fccaa6d8d0089664307fc0657a0076f19628412c56bb6bdc511f70b427");
+}.banner-container2 {
+  width: 100%;
+  height:90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/free-photo/mountains-covered-with-snow-with-sky_181624-14791.jpg?w=1480&t=st=1686709559~exp=1686710159~hmac=60d0ec7caa5bb6fa61c84211082168e0f1f3d9e3d4f9e8447ee053508038d611");
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/free-photo/beautiful-landscape-snowcovered-mountains-with-paraglider-south-tyrol-dolomites-italy_181624-30091.jpg?w=1380&t=st=1686551290~exp=1686551890~hmac=c51a22fccaa6d8d0089664307fc0657a0076f19628412c56bb6bdc511f70b427");
+}
+
+.navbar {
+  background-color: transparent;
+}
+#nav-link {
+  margin-right: 15px;
+  color: white !important;
+  font-size: 16px !important;
+}
+#nav-link:hover {
+  color: #000 !important;
+}
+#nav-link2 {
+  margin-right: 15px;
+  color: black !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+#nav-link2:hover {
+  color: #2d354a !important;
+  font-weight: 700 !important;
+}
+.contain-tab {
+  width: 100%;
+  height: 70px;
+}
+.title1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.title2 {
+  font-size: 20px;
+  font-weight: 600;
+
+  color: rgb(25, 25, 45);
+}
+.numberOne{
+
+}
