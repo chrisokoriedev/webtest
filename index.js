@@ -21,3 +21,12 @@ function openPage(pageName, elmnt, color) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+
+var currentYear = new Date().getFullYear();
+    
+// Update the HTML element with the current year
+window.addEventListener('DOMContentLoaded', function() {
+  var yearElement = document.getElementById('currentYear');
+  yearElement.textContent = currentYear;
+});
