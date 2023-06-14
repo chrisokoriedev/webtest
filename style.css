@@ -1,3 +1,5 @@
+
+
 html {
   box-sizing: content-box;
   scroll-behavior: smooth;
@@ -24,6 +26,12 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("https://img.freepik.com/free-photo/beautiful-landscape-snowcovered-mountains-with-paraglider-south-tyrol-dolomites-italy_181624-30091.jpg?w=1380&t=st=1686551290~exp=1686551890~hmac=c51a22fccaa6d8d0089664307fc0657a0076f19628412c56bb6bdc511f70b427");
+}
+.card-panel{
+  background-image: url('https://img.freepik.com/free-photo/beautiful-low-angle-shot-forest-blue-starry-night-sky_181624-9304.jpg?w=1380&t=st=1686711217~exp=1686711817~hmac=783434e869659d836517314facfadf319bc81031469dd521439a2fcd98673e52');
+  width: 400px;
+  height: 400px;
+  margin-right: 30px;
 }
 
 .navbar {
@@ -54,13 +62,16 @@ html {
 .title1 {
   font-size: 20px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 .title2 {
   font-size: 20px;
   font-weight: 600;
-
+  text-transform: uppercase;
   color: rgb(25, 25, 45);
 }
 .numberOne{
-
+  font-size: 90px;
+  font-weight: 800;
+  color: gray;
 }
